@@ -6,5 +6,5 @@ import VueCesium from 'vue-cesium'
 import 'vue-cesium/dist/index.css'
 
 createApp(App).use(VueCesium, {
-    cesiumPath: 'https://unpkg.com/cesium/Build/Cesium/Cesium.js'
+    cesiumPath: './Cesium-1.115/Build/Cesium/Cesium.js'
   }).mount('#app')

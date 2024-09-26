@@ -16,10 +16,10 @@ const ipcHandle = () => window.electron.ipcRenderer.send('ping')
         @mouseover="onEntityEvt"
         @mouseout="onEntityEvt"
       >
-        <vc-graphics-rectangle
+        <!-- <vc-graphics-rectangle
           :coordinates="[130, 20, 80, 25]"
           material="green"
-        ></vc-graphics-rectangle>
+        ></vc-graphics-rectangle> -->
       </vc-entity>
       <vc-layer-imagery>
         <vc-imagery-provider-osm></vc-imagery-provider-osm>
